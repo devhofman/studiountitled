@@ -1,5 +1,34 @@
 <template>
   <div class="home container-fluid">
+    <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-dark" id="exampleModalLabel">Contact</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 d-flex flex-column">
+              <span class="text-dark pt-3">
+                email: dhofman.studio@gmail.com
+              </span>
+              <span class="text-dark pt-3">
+                ig: @untitled_studio.24
+              </span>
+              <span class="text-dark pt-3">
+                facebook.com/untitled.grafika
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
     <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -75,6 +104,7 @@
           <span class="text-white d-flex flex-column">
               <a href="#about" class="pf-option">about me</a>
               <a href="#about" class="pf-option check_mobile" data-toggle="modal" data-target="#exampleModalLong">check my projects_here</a>
+              <a href="#about" class="pf-option" data-toggle="modal" data-target="#contact">contact</a>
             </span>
         </div>
       </div>
@@ -224,13 +254,13 @@ He loves new challenges and look for original solutions.
 
 @media (min-width: 1024px) {
   .check_mobile {
-    visibility: hidden;
+    display: none;
   }
 }
 
 @media (max-width: 1024px) {
   .nav-desktop {
-    display: none;
+    visibility: hidden;
   }
 }
 
