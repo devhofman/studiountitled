@@ -38,8 +38,8 @@
         </button>
       </div>
       <div class="modal-body bg-black">
-        <div class="container">
-          <div class="col-12 ml-3">
+        <div class="container ">
+          <div class="col-12 ml-3 d-flex justify-content-center flex-column text-center">
             <div class="row pt-5">
             <span class="pf-option mb-5 bg-black">
               check my projects_here
@@ -52,37 +52,37 @@
           </div>
           <div class="row">
             <span class="text-dark">
-              <router-link to="/wimd" class="pf-option">where_is_my_mind | photo</router-link>
+              <router-link to="/wimd" class="pf-option mt-5">where_is_my_mind | photo</router-link>
             </span>
           </div>
           <div class="row">
             <span class="text-dark">
-              <router-link to="/itbinvest" class="pf-option">Itb invest | landing page</router-link>
+              <router-link to="/itbinvest" class="pf-option mt-5">Itb invest | landing page</router-link>
             </span>
           </div>
            <div class="row">
             <span class="text-dark">
-              <router-link to="/dachy" class="pf-option">dachy lca | landing page</router-link>
+              <router-link to="/dachy" class="pf-option mt-5">dachy lca | landing page</router-link>
             </span>
           </div>
           <div class="row">
             <span class="text-dark">
-              <router-link to="/magic" class="pf-option">Magic | photography</router-link>
+              <router-link to="/magic" class="pf-option mt-5">Magic | photography</router-link>
             </span>
           </div>
           <div class="row">
             <span class="text-dark">
-              <router-link to="/foo" class="pf-option">School notebooks | illustrations </router-link>
+              <router-link to="/foo" class="pf-option mt-5">School notebooks | illustrations </router-link>
             </span>
           </div>
           <div class="row">
             <span class="text-dark">
-              <router-link to="/foo" class="pf-option">smalltown photos | photography </router-link>
+              <router-link to="/foo" class="pf-option mt-5">smalltown photos | photography </router-link>
             </span>
           </div>
           <div class="row">
             <span class="text-dark">
-              <router-link to="/portraits" class="pf-option">street portraits | photography</router-link>
+              <router-link to="/portraits" class="pf-option mt-5">street portraits | photography</router-link>
             </span>
           </div>                </div>
         </div>
@@ -103,68 +103,16 @@
         <div class="text-center">
           <span class="text-white d-flex flex-column">
               <a href="#about" class="pf-option">about me</a>
-              <a href="#about" class="pf-option check_mobile" data-toggle="modal" data-target="#exampleModalLong">check my projects_here</a>
+              <a href="#about" class="pf-option" data-toggle="modal" data-target="#exampleModalLong">check my projects_here</a>
               <a href="#about" class="pf-option" data-toggle="modal" data-target="#contact">contact</a>
             </span>
         </div>
       </div>
     </div>
-    <div class="row fixed-top nav-desktop">
-      <div class="col-4 text-right">
-        <div class="container">
-          <div class="col-12 ml-3">
-            <div class="row pt-5">
-            <span class="pf-option mb-5 bg-black">
-              check my projects_here
-            </span>
-          </div>
-            <div class="row">
-            <span class="text-white">
-              <router-link to="/szeptycover" class="pf-option">Szepty | music cover</router-link>
-            </span>
-          </div>
-          <div class="row">
-            <span class="text-white">
-              <router-link to="/wimd" class="pf-option">where_is_my_mind | photo</router-link>
-            </span>
-          </div>
-          <div class="row">
-            <span class="text-white">
-              <router-link to="/itbinvest" class="pf-option">Itb invest | landing page</router-link>
-            </span>
-          </div>
-           <div class="row">
-            <span class="text-white">
-              <router-link to="/dachy" class="pf-option">dachy lca | landing page</router-link>
-            </span>
-          </div>
-          <div class="row">
-            <span class="text-white">
-              <router-link to="/magic" class="pf-option">Magic | photography</router-link>
-            </span>
-          </div>
-          <div class="row">
-            <span class="text-white">
-              <router-link to="/foo" class="pf-option">School notebooks | illustrations </router-link>
-            </span>
-          </div>
-          <div class="row">
-            <span class="text-white">
-              <router-link to="/foo" class="pf-option">smalltown photos | photography </router-link>
-            </span>
-          </div>
-          <div class="row">
-            <span class="text-white">
-              <router-link to="/portraits" class="pf-option">street portraits | photography</router-link>
-            </span>
-          </div>                </div>
-        </div>
-      </div>
-    </div>
     <div class="row aboutme container-fluid" id="about">
-      <div class="col-12 col-md-6 img_me">
+      <div class="col-12 col-md-12 col-lg-6 img_me">
       </div>
-      <div class="col-12 col-md-6 about-content bg-white text-black">
+      <div class="col-12 col-md-12 col-lg-6 about-content bg-white text-black">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -264,6 +212,10 @@ He loves new challenges and look for original solutions.
   }
 }
 
+.carousel_pf {
+  width: 100%;
+}
+
 .about-content::-webkit-scrollbar-thumb {
   background: black;
 }
@@ -296,6 +248,7 @@ He loves new challenges and look for original solutions.
   background-image: url('../assets/me.jpg');
   background-size: cover;
   position: static;
+  overflow: hidden;
 }
 
 .about-content {
