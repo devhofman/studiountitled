@@ -47,42 +47,42 @@
           </div>
             <div class="row">
             <span class="text-dark">
-              <router-link to="/szeptycover" class="pf-option">Szepty | music cover</router-link>
+              <router-link to="/szeptycover" class="pf-option" data-dismiss="modal">Szepty | music cover</router-link>
             </span>
           </div>
           <div class="row">
             <span class="text-dark">
-              <router-link to="/wimd" class="pf-option mt-5">where_is_my_mind | photo</router-link>
+              <router-link to="/wimd" class="pf-option mt-5" data-dismiss="modal">where_is_my_mind | photo</router-link>
             </span>
           </div>
           <div class="row">
             <span class="text-dark">
-              <router-link to="/itbinvest" class="pf-option mt-5">Itb invest | landing page</router-link>
+              <router-link to="/itbinvest" class="pf-option mt-5" data-dismiss="modal">Itb invest | landing page</router-link>
             </span>
           </div>
            <div class="row">
             <span class="text-dark">
-              <router-link to="/dachy" class="pf-option mt-5">dachy lca | landing page</router-link>
+              <router-link to="/dachy" class="pf-option mt-5" data-dismiss="modal">dachy lca | landing page</router-link>
             </span>
           </div>
           <div class="row">
             <span class="text-dark">
-              <router-link to="/magic" class="pf-option mt-5">Magic | photography</router-link>
+              <router-link to="/magic" class="pf-option mt-5" data-dismiss="modal">Magic | photography</router-link>
             </span>
           </div>
           <div class="row">
             <span class="text-dark">
-              <router-link to="/foo" class="pf-option mt-5">School notebooks | illustrations </router-link>
+              <router-link to="/foo" class="pf-option mt-5" data-dismiss="modal">School notebooks | illustrations </router-link>
             </span>
           </div>
           <div class="row">
             <span class="text-dark">
-              <router-link to="/foo" class="pf-option mt-5">smalltown photos | photography </router-link>
+              <router-link to="/foo" class="pf-option mt-5" data-dismiss="modal">smalltown photos | photography </router-link>
             </span>
           </div>
           <div class="row">
             <span class="text-dark">
-              <router-link to="/portraits" class="pf-option mt-5">street portraits | photography</router-link>
+              <router-link to="/portraits" class="pf-option mt-5" data-dismiss="modal">street portraits | photography</router-link>
             </span>
           </div>                </div>
         </div>
@@ -210,6 +210,16 @@ He loves new challenges and look for original solutions.
   .nav-desktop {
     visibility: hidden;
   }
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: rgb(0, 0, 0, 0);
 }
 
 .carousel_pf {
