@@ -14,13 +14,13 @@
           <div class="row">
             <div class="col-12 d-flex flex-column">
               <span class="text-dark pt-3">
-                email: dhofman.studio@gmail.com
+                <a href="mailto:dhofman.studio@gmail.com">dhofman.studio@gmail.com</a>
               </span>
               <span class="text-dark pt-3">
-                ig: @untitled_studio.24
+                <a href="http://instagram.com/untitled_studio.24">Instagram</a>
               </span>
               <span class="text-dark pt-3">
-                facebook.com/untitled.grafika
+                <a href="http://facebook.com/untitled.grafika">Facebook</a>
               </span>
             </div>
           </div>
@@ -77,7 +77,7 @@
           </div>
           <div class="row">
             <span class="text-dark">
-              <router-link to="/foo" class="pf-option mt-5" data-dismiss="modal">smalltown photos | photography </router-link>
+              <router-link to="/smalltown" class="pf-option mt-5" data-dismiss="modal">smalltown photos | photography </router-link>
             </span>
           </div>
           <div class="row">
@@ -144,7 +144,7 @@ He loves new challenges and look for original solutions.
           </div>
           <div class="row">
             <div class="col-12 d-flex justify-content-center align-items-center flex-column">
-              <span class="text-dark desc-about p-5 pt-2">
+              <span class="text-dark desc-about p-5">
                 <ul>
                   <li><b>2019</b> | AD Awards Media Agency - web designer</li>
                   <li><b>2017 - 2018</b> | Tourism Office Kompas BTA - photographer</li>
