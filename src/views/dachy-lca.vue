@@ -10,6 +10,7 @@
         <img src="../assets/dachy_lca/oferta-dachy.png" alt="" srcset="" class="img_portraits px-3">
         <img src="../assets/dachy_lca/check-dachy.png" alt="" srcset="" class="img_portraits px-3">
         <img src="../assets/dachy_lca/foot-dachy.png" alt="" srcset="" class="img_portraits px-3">
+        <img src="../assets/dachy_lca/kontakt.png" alt="" srcset="" class="img_portraits px-3">
       </div>
     </div>
     <div class="row fixed-top">

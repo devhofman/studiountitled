@@ -30,19 +30,14 @@
   </div>
 </div>
     <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog modal_menu" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
       <div class="modal-body bg-black">
         <div class="container ">
           <div class="col-12 ml-3 d-flex justify-content-center flex-column text-center">
-            <div class="row pt-5">
-            <span class="pf-option mb-5 bg-black">
-              check my projects_here
+            <div class="row">
+            <span class="pf-option mb-5 bg-black" aria-hidden="true" data-dismiss="modal">
+              close
             </span>
           </div>
             <div class="row">
@@ -86,10 +81,6 @@
             </span>
           </div>                </div>
         </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -291,6 +282,10 @@ He loves new challenges and look for original solutions.
 .sub {
   font-family: Montserrat-Reg;
   font-size: 1rem;
+}
+
+.modal_menu {
+  border: white 2px solid;
 }
 </style>
 
