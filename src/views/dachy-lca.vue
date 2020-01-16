@@ -13,16 +13,6 @@
         <img src="../assets/dachy_lca/kontakt.png" alt="" srcset="" class="img_portraits px-3">
       </div>
     </div>
-    <div class="row fixed-top">
-      <div class="col-3 text-right">
-        <div class="container">
-          <div class="col-12 ml-3">
-            <div class="row">
-            <span class="text-white">
-              <router-link to="/" class="pf-option bg-black p-2">back</router-link>
-            </span>
-          </div>
-          </div></div></div></div>
   </div>
 </template>
 

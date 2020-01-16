@@ -1,103 +1,12 @@
 <template>
   <div class="home container-fluid">
-    <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title text-dark" id="exampleModalLabel">Contact</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 d-flex flex-column">
-              <span class="text-dark pt-3">
-                <a href="mailto:dhofman.studio@gmail.com">dhofman.studio@gmail.com</a>
-              </span>
-              <span class="text-dark pt-3">
-                <a href="http://instagram.com/untitled_studio.24">Instagram</a>
-              </span>
-              <span class="text-dark pt-3">
-                <a href="http://facebook.com/untitled.grafika">Facebook</a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog modal_menu" role="document">
-    <div class="modal-content">
-      <div class="modal-body bg-black">
-        <div class="container ">
-          <div class="col-12 ml-3 d-flex justify-content-center flex-column text-center">
-            <div class="row">
-            <span class="pf-option mb-5 bg-black" aria-hidden="true" data-dismiss="modal">
-              close
-            </span>
-          </div>
-            <div class="row">
-            <span class="text-dark">
-              <router-link to="/szeptycover" class="pf-option" data-dismiss="modal">Szepty | music cover</router-link>
-            </span>
-          </div>
-          <div class="row">
-            <span class="text-dark">
-              <router-link to="/wimd" class="pf-option mt-5" data-dismiss="modal">where_is_my_mind | photo</router-link>
-            </span>
-          </div>
-          <div class="row">
-            <span class="text-dark">
-              <router-link to="/itbinvest" class="pf-option mt-5" data-dismiss="modal">Itb invest | landing page</router-link>
-            </span>
-          </div>
-           <div class="row">
-            <span class="text-dark">
-              <router-link to="/dachy" class="pf-option mt-5" data-dismiss="modal">dachy lca | landing page</router-link>
-            </span>
-          </div>
-          <div class="row">
-            <span class="text-dark">
-              <router-link to="/magic" class="pf-option mt-5" data-dismiss="modal">Magic | photography</router-link>
-            </span>
-          </div>
-          <div class="row">
-            <span class="text-dark">
-              <router-link to="/foo" class="pf-option mt-5" data-dismiss="modal">School notebooks | illustrations </router-link>
-            </span>
-          </div>
-          <div class="row">
-            <span class="text-dark">
-              <router-link to="/smalltown" class="pf-option mt-5" data-dismiss="modal">smalltown photos | photography </router-link>
-            </span>
-          </div>
-          <div class="row">
-            <span class="text-dark">
-              <router-link to="/portraits" class="pf-option mt-5" data-dismiss="modal">street portraits | photography</router-link>
-            </span>
-          </div>                </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
     <div class="row intro">
       <div class="col-12 d-flex justify-content-center align-items-center flex-column intro-label">
         <div class="box-title d-flex flex-column text-center">
           <span class="title mb-3">studio_UNTITLED</span>
           <span class="sub mb-5">photo and graphic design</span>
         </div>
-        <div class="text-center">
-          <span class="text-white d-flex flex-column">
-              <a href="#about" class="pf-option">about me</a>
-              <a href="#about" class="pf-option" data-toggle="modal" data-target="#exampleModalLong">check my projects_here</a>
-              <a href="#about" class="pf-option" data-toggle="modal" data-target="#contact">contact</a>
-            </span>
-        </div>
+        <button type="button" class="btn bg-black text-white btn_intro">welcome</button>
       </div>
     </div>
     <div class="row aboutme container-fluid" id="about">
@@ -201,6 +110,18 @@ He loves new challenges and look for original solutions.
   .nav-desktop {
     visibility: hidden;
   }
+}
+
+.btn_intro {
+  background-color: black;
+  font-family: Antonio-Reg;
+  font-size: 1.25rem;
+  transition: .5s;
+  border-radius: 0;
+}
+
+.btn_intro:hover {
+  border: 3px solid white;
 }
 
 .modal-backdrop {
