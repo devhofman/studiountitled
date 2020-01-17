@@ -79,8 +79,6 @@ He loves new challenges and look for original solutions.
                   <li>Creativity, communication and joy of work :)</li>
                 </ul>
               </span>
-              <a class="btn bg-black text-white btn_about my-3" href="./public/DominikHofman_CV.pdf">check_CV</a>
-               <button type="button" class="btn bg-black text-white btn_about">aboutme_in_PDF</button>
             </div>
           </div>
             </div>

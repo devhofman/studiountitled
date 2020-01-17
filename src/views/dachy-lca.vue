@@ -2,7 +2,8 @@
   <div class="magic container-fluid">
     <div class="row">
       <div class="col-12 flex-row d-flex">
-        <img src="../assets/dachy_lca/mockup_dachy.jpg" alt="" srcset="" class="img_portraits px-3">
+        <img src="../assets/dachy_lca/mocks_002.jpg" alt="" srcset="" class="img_portraits px-3">
+        <img src="../assets/dachy_lca/mocks_001.jpg" alt="" srcset="" class="img_portraits px-3">
         <img src="../assets/dachy_lca/dachy-main.png" alt="" srcset="" class="img_portraits px-3">
         <img src="../assets/dachy_lca/dachy-header.png" alt="" srcset="" class="img_portraits px-3">
         <img src="../assets/dachy_lca/onas-dachy.png" alt="" srcset="" class="img_portraits px-3">
