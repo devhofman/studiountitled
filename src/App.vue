@@ -7,21 +7,21 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto mr-auto">
       <li class="nav-item">
-        <a class="nav-link link_proj" href="/">About</a>
+        <router-link class="nav-link link_proj" to="/">About</router-link>
       </li>
       <li class="nav-item">
-        <a class="nav-link link_proj" href="/contact">Contact</a>
+        <router-link class="nav-link link_proj" to="/contact">Contact</router-link>
       </li>
       <li class="nav-item dropdown my-2 my-lg-0">
         <a class="nav-link link_proj" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Check my projects
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="/szeptycover">Szepty | music_cover</a>
-          <a class="dropdown-item" href="/itbinvest">itb invest | web_design</a>
-          <a class="dropdown-item" href="/portraits">street portraits | photography</a>
-          <a class="dropdown-item" href="/dachy">dachy-lca | web_design</a>
-          <a class="dropdown-item" href="/wimd">where_is_my_mind | photography</a>
+          <router-link class="dropdown-item" to="/szeptycover">Szepty | music_cover</router-link>
+          <router-link class="dropdown-item" to="/itbinvest">itb invest | web_design</router-link>
+          <router-link class="dropdown-item" to="/portraits">street portraits | photography</router-link>
+          <router-link class="dropdown-item" to="/dachy">dachy-lca | web_design</router-link>
+          <router-link class="dropdown-item" to="/wimd">where_is_my_mind | photography</router-link>
         </div>
       </li>
     </ul>
@@ -37,15 +37,4 @@
   overflow-x: hidden;
 }
 
-.dropdown-item {
-  font-family: Antonio-Reg;
-  font-size: 1.25rem;
-}
-
-.link_proj {
-  text-transform: uppercase;
-  color: black;
-  font-size: 1.5rem;
-  font-family: Antonio-Reg;
-}
 </style>
