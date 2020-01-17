@@ -43,7 +43,7 @@ He loves new challenges and look for original solutions.
             </div>
           </div>
           <div class="row">
-            <div class="col-12 d-flex justify-content-center align-items-center flex-column">
+            <div class="col-12 d-flex justify-content-center flex-column">
               <span class="text-dark desc-about p-5">
                 <ul>
                   <li><b>2019</b> | AD Awards Media Agency - web designer</li>
@@ -69,7 +69,7 @@ He loves new challenges and look for original solutions.
               </span>
             </div>
           </div>
-          <div class="row">
+          <div class="row pb-5">
             <div class="col-12 d-flex justify-content-center align-items-center flex-column">
               <span class="text-dark desc-about p-5">
                 <ul>
@@ -79,6 +79,8 @@ He loves new challenges and look for original solutions.
                   <li>Creativity, communication and joy of work :)</li>
                 </ul>
               </span>
+              <a class="btn bg-black text-white btn_about my-3" href="./public/DominikHofman_CV.pdf">check_CV</a>
+               <button type="button" class="btn bg-black text-white btn_about">aboutme_in_PDF</button>
             </div>
           </div>
             </div>
@@ -112,7 +114,7 @@ He loves new challenges and look for original solutions.
   }
 }
 
-.btn_intro {
+.btn_intro, .btn_about {
   background-color: black;
   font-family: Antonio-Reg;
   font-size: 1.25rem;

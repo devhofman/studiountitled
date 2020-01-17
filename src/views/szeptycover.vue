@@ -25,10 +25,12 @@
 
 .img_portraits {
   height: 100vh;
+  transform: scale(.8);
 }
 
 .covers {
   height: 100vh;
+  transform: scale(.8);
 }
 
 .intro-szepty {

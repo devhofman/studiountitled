@@ -1,6 +1,9 @@
 <template>
   <div id="app" class="main">
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top border-bottom-5">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto mr-auto">
       <li class="nav-item">
@@ -17,9 +20,8 @@
           <a class="dropdown-item" href="/szeptycover">Szepty | music_cover</a>
           <a class="dropdown-item" href="/itbinvest">itb invest | web_design</a>
           <a class="dropdown-item" href="/portraits">street portraits | photography</a>
-          <a class="dropdown-item" href="#">itb invest | web_design</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="/dachy">dachy-lca | web_design</a>
+          <a class="dropdown-item" href="/wimd">where_is_my_mind | photography</a>
         </div>
       </li>
     </ul>

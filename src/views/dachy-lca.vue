@@ -27,6 +27,7 @@
 
 .img_portraits {
   height: 100vh;
+  transform: scale(.8);
 }
 
 .cover, .intro-proj {
