@@ -6,7 +6,7 @@
           <span class="title mb-3">studio_UNTITLED</span>
           <span class="sub mb-5">photo and graphic design</span>
         </div>
-        <button type="button" class="btn bg-black text-white btn_intro">welcome</button>
+        <a type="button" class="btn bg-black text-white btn_intro js-scroll-trigger" href="#about">welcome</a>
       </div>
     </div>
     <div class="row aboutme container-fluid" id="about">
@@ -118,6 +118,7 @@ He loves new challenges and look for original solutions.
   font-size: 1.25rem;
   transition: .5s;
   border-radius: 0;
+   border: 1px solid white;
 }
 
 .btn_intro:hover {
