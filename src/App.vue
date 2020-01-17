@@ -37,4 +37,16 @@
   overflow-x: hidden;
 }
 
+.dropdown-item {
+  font-family: Antonio-Reg;
+  font-size: 1.25rem;
+}
+
+.link_proj {
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.5rem;
+  font-family: Antonio-Reg;
+}
+
 </style>
