@@ -11,8 +11,8 @@
                     </div>
                     <div class="row pt-5">
                         <div class="col-12 d-flex justify-content-center align-items-center">
-                            <a href="https://www.facebook.com/untitled.grafika/" class="fab fa-facebook-f px-5 icon-social"></a>
-                            <a href="https://www.instagram.com/untitled_studio.24/" class="fab fa-instagram-f px-5 icon-social"></a>
+                            <i class="fab fa-facebook-f px-5 icon-social" href="https://www.facebook.com/untitled.grafika/"></i>
+                            <i class="fab fa-instagram-f px-5 icon-social" href="https://www.instagram.com/untitled_studio.24/"></i>
                         </div>
                     </div>
                 </div>
