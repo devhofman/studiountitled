@@ -10,9 +10,10 @@
                         </div>
                     </div>
                     <div class="row pt-5">
-                        <div class="col-12 d-flex justify-content-center align-items-center">
-                            <i class="fab fa-facebook-f px-5 icon-social" href="https://www.facebook.com/untitled.grafika/"></i>
-                            <i class="fab fa-instagram-f px-5 icon-social" href="https://www.instagram.com/untitled_studio.24/"></i>
+                        <div class="col-12 d-flex justify-content-center align-items-center flex-column">
+                            <span class="text-white mb-3">You can find me here:</span>
+                            <a href="https://www.instagram.com/untitled_studio.24/" class="link-social">instagram.com/untitled_studio.24</a>
+                            <a href="https://www.facebook.com/untitled.grafika/" class="link-social">facebook.com/untitled.grafika</a>
                         </div>
                     </div>
                 </div>
@@ -43,7 +44,9 @@
     font-family: Antonio-Reg;
 }
 
-.icon-social {
-    transform: scale(2.5);
+.link-social {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: underline;
 }
 </style>
